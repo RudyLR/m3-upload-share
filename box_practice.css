@@ -124,3 +124,22 @@ body {
     padding: 1.75rem 0;
   }
 }
+.site-nav {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.site-nav a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 999px;
+  background: #fff;
+}
+
+.site-nav a:hover {
+  background: #f3f3f3;
+}
